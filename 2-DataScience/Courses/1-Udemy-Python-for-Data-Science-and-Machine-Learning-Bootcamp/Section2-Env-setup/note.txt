@@ -1,0 +1,11 @@
+Setup and Installation
+Objectives:
+    1) Install Python with Anaconda
+    2) Download zip file of notebooks
+    3) Open Jupyter and explore notebooks
+
+** Anaconda
+    A distribution of Python
+** Jupyter
+    A development env where we can write code, display images,
+    and write down markdown notes.
