@@ -1,17 +1,17 @@
 // function allLongestStrings(inputArray) {
 //   inputArray.reduce(
 //     (acc, value, i) => {
-//         console.log(i);
-//         console.log(acc);
-//         console.log(value);
-//         i == 0
+//       console.log(i);
+//       console.log(acc);
+//       console.log(value);
+//       i == 0
 //         ? acc
 //         : value.length > acc[0].length
 //         ? [value]
 //         : value.length == acc[0].length
 //         ? [...acc, value]
 //         : acc;
-//         console.log(acc);
+//       console.log(acc);
 //     },
 //     [inputArray[0]]
 //   );
@@ -32,11 +32,11 @@ function allLongestStrings(inputArray) {
   return rsArr;
 }
 
-// function allLongestStrings(inputArray) {
-//   "use strict";
-//   let maxSize = Math.max(...inputArray.map((x) => x.length));
-//   return inputArray.filter((x) => x.length === maxSize);
-// }
+function allLongestStrings(inputArray) {
+  "use strict";
+  let maxSize = Math.max(...inputArray.map((x) => x.length));
+  return inputArray.filter((x) => x.length === maxSize);
+}
 
 const inputArray = ["aba", "aa", "ad", "vcd", "aba"];
 
