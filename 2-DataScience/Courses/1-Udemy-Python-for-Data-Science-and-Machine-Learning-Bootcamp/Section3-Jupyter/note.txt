@@ -1,0 +1,7 @@
+jupyter notebook
+
+// Virtual Env:
+conda create --name fluffy numpy
+conda activate fluffy
+conda deactivate fluffy
+conda info --envs
